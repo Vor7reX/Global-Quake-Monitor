@@ -1,4 +1,3 @@
-
 # Global Quake Monitor | <a href="https://projectpokemon.org/images/shiny-sprite/groudon-primal.gif"><img src="https://projectpokemon.org/images/shiny-sprite/groudon-primal.gif" alt="Primal Groudon Shiny" height="60"></a> <a href="https://projectpokemon.org/images/shiny-sprite/kyogre-primal.gif"><img src="https://projectpokemon.org/images/shiny-sprite/kyogre-primal.gif" alt="Primal Kyogre Shiny" height="35"></a> <a href="https://projectpokemon.org/images/shiny-sprite/rayquaza-mega.gif"><img src="https://projectpokemon.org/images/shiny-sprite/rayquaza-mega.gif" alt="Mega Rayquaza Shiny" height="85"></a>
 
 An advanced **WebGL-based** data visualization engine built to track, render, and analyze global seismic activity in real-time. 
