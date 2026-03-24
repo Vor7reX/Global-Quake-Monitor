@@ -6,9 +6,9 @@ The project leverages hardware-accelerated 3D graphics to map complex GeoJSON da
 
 Powered by the **USGS (United States Geological Survey) API** live data feed and optimized for zero-latency DOM updates.
 
-<video src="Assets/Demo.mp4" width="70%" controls></video>
+<video src="assets/Demo.mp4" width="70%" controls></video>
 
-[**Try the Live Demo**](https://vor7rex.github.io/sisma-monitor/) <a href="https://pokemondb.net/pokedex/metagross"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/metagross.gif" alt="Metagross" height="50" align="center"></a>
+[**Try the Live Demo**](https://vor7rex.github.io/Global-Quake-Monitor/) <a href="https://pokemondb.net/pokedex/metagross"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/metagross.gif" alt="Metagross" height="50" align="center"></a>
 
 ## ⚙️ Core Architecture & Features
 - **WebGL Geometry Merging**: Implementation of `pointsMerge` to batch hundreds of individual 3D columns into a single mesh, drastically reducing draw calls and preventing VRAM leaks/ghosting artifacts.
@@ -31,7 +31,7 @@ Powered by the **USGS (United States Geological Survey) API** live data feed and
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/Vor7reX/sisma-monitor.git](https://github.com/Vor7reX/sisma-monitor.git)
+    git clone https://github.com/Vor7reX/Global-Quake-Monitor
     ```
 2.  Navigate to the project directory:
 
