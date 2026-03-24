@@ -6,7 +6,11 @@ The project leverages hardware-accelerated 3D graphics to map complex GeoJSON da
 
 Powered by the **USGS (United States Geological Survey) API** live data feed and optimized for zero-latency DOM updates.
 
-<video src="assets/Demo.mp4" width="70%" controls></video>
+
+
+https://github.com/user-attachments/assets/f571e9a9-ecbf-4b25-8040-fa5da6764818
+
+
 
 [**Try the Live Demo**](https://vor7rex.github.io/Global-Quake-Monitor/) <a href="https://pokemondb.net/pokedex/metagross"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/metagross.gif" alt="Metagross" height="50" align="center"></a>
 
