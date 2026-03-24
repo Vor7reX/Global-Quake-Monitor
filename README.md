@@ -21,6 +21,7 @@ https://github.com/user-attachments/assets/f571e9a9-ecbf-4b25-8040-fa5da6764818
 - **Equirectangular Texture Mapping**: Dynamic mapping of high-resolution local textures (Earth daymap and deep space starfield) onto the scene background using `Three.TextureLoader`.
 - **Responsive Glassmorphism UI**: A highly optimized, non-blocking user interface utilizing hardware-accelerated CSS `backdrop-filter` and dynamic media queries for seamless mobile transitions.
 <br>
+
 ## 🛠️ Technologies
 
 | **Core Stack** | **Implementation Details** |
@@ -30,6 +31,7 @@ https://github.com/user-attachments/assets/f571e9a9-ecbf-4b25-8040-fa5da6764818
 | <img src="https://img.shields.io/badge/Globe.gl-0055FF?style=for-the-badge&logo=webgl&logoColor=white" /> | Geo-spatial coordinate translation, Polygon data mapping, Custom layered tooltips |
 | <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> | CSS Variables, Flexbox UI scaling, Custom WebKit Scrollbars |
 <br>
+
 ## 📦 Quick Start
 
 1. Clone the repository:
