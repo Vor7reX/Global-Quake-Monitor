@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Quake Monitor | Real-time Earthquake Tracking</title>
+    
+    <script src="https://unpkg.com/three@0.136.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/globe.gl@2.32.2/dist/globe.gl.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button id="ui-toggle" title="Hide/Show UI">👁️</button>
+    
+    <div id="loader">Loading...</div>
+
+    <div id="ui-layer">
+        
+        <div id="dashboard" class="panel">
+            <h1>Quake Monitor <span id="status-indicator">LIVE</span></h1>
+            
+            <div class="data-row">
+                <span class="data-label">Events Found</span>
+                <span class="data-value" id="val-count">--</span>
+            </div>
+            <div class="data-row">
+                <span class="data-label">Seismic Peak</span>
+                <span class="data-value" id="val-last" title="No data">--</span>
+            </div>
+
+            <div id="filter-section">
+                <div class="filter-title">Historical Search</div>
+                
+                <div style="display: flex; gap: 10px;">
+                    <div class="input-group" style="flex: 1;">
+                        <label for="input-start">From (Date)</label>
+                        <input type="date" id="input-start">
+                    </div>
+                    <div class="input-group" style="flex: 1;">
+                        <label for="input-end">To (Date)</label>
+                        <input type="date" id="input-end">
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="input-mag">Minimum Magnitude (Richter)</label>
+                    <input type="number" id="input-mag" step="0.1" value="4.5" min="1.0" max="9.9">
+                </div>
+                
+                <div class="button-group">
+                    <button id="btn-live">Back to Live</button>
+                    <button id="btn-query">Filter Map</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="legend" class="panel">
+            <div class="legend-row">
+                Critical (M > 5.0) <div class="dot" style="background: var(--color-critical); color: var(--color-critical);"></div>
+            </div>
+            <div class="legend-row">
+                Warning (M 2.5 - 5.0) <div class="dot" style="background: var(--color-moderate); color: var(--color-moderate);"></div>
+            </div>
+            <div class="legend-row">
+                Minor (M &lt; 2.5) <div class="dot" style="background: var(--color-light); color: var(--color-light);"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="globeViz"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
